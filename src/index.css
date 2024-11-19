@@ -1,0 +1,209 @@
+:root {
+  height: 100vh;
+  /* border-image: fill 0 linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+}
+body::before {
+  content: "Tagudin Tagudin Tagudin ISPSC Tagudin Tagudin Tagudin ISPSC ISPSC Tagudin ISPSC ISPSC Tagudin "
+            "ISPSC Tagudin ISPSC Tagudin  ISPSC Tagudin ISPSC ISPSC Tagudin ISPSC Tagudin  ISPSC Tagudin Tagudin "
+            "ISPSC Tagudin Tagudin ISPSC Tagudin Tagudin ISPSC Tagudin Tagudin ISPSC Tagudin ISPSC Tagudin ISPSC Tagudin Tagudin ISPSC Tagudin ISPSC "
+            "Tagudin  ISPSC ISPSC Tagudin ISPSC Tagu ISPSC ISPSC Tagudin ISPSC Tagudin  ISPSC Tagudin ISPSC "
+            "Tagudin ISPSC  Tagudin ISPSC Tagudin ISPSC Tagudin ISPSC ISPSC "
+            ;
+            
+  position: fixed;
+  left: -90%;
+  width: 200%;
+  height: 100%; 
+  font-size: 7rem;
+  color: rgba(0, 0, 0, 0.05);
+  z-index: -1;
+
+
+  transform: rotate(-35deg);
+}
+
+/* app.jsx */
+.header {
+  justify-content: center;
+  background-color: maroon;
+}
+.logo {
+  margin: 0 0 0 30px;
+  padding: 6px;
+}
+.tagudin-logo, .tagudin-logo1, .pilipinas-logo, .ispsc-logo {
+  border-radius: 50%;
+  margin: 0 5px 0 0;
+  margin: -40px 0 0 10px;
+}
+.text-logo {
+  margin: 0 20px 0 20px;
+  display: inline-block;
+  position: relative ;
+  text-transform: uppercase;
+}
+#republic, #location {
+  font-size: 13px;
+  color: gold;
+  font-weight: 300;
+
+}
+#ispsc {
+  text-decoration: overline;  
+  font-size: 20px;
+  color:gold;
+  font-weight: 350;
+}
+.navbar {
+  /* background-color: rgb(94, 3, 3); */
+  background-color: darkgreen;
+}
+.bt {
+  margin: 7px;
+  border: transparent;
+  background-color: transparent;
+  color: gold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 25 0;
+}
+.bt.active {
+  /* background-color: maroon; */
+  background-color: green;
+  color: white;
+}
+.bt:hover:not(.active) {
+  /* background-color: maroon; */
+  background-color: green;
+
+}
+
+
+/* home.jsx */  
+.home-content {
+  border: 1px solid black;
+  margin: 10% 0 20% 0;
+  border-radius: 7px;
+}
+.panthers  {
+  padding: 5px;
+  color: gold;
+  font-style: oblique;
+}
+.text-panthers {
+  text-align: justify;
+  padding: 10px;
+  text-indent: 50px;
+}
+
+
+/* about.jsx */
+.text-about {
+  margin: 0 0 30% 0;
+}
+.about-content {
+  margin: 30% 0 0 0;
+}
+
+
+/* vision & mission  */
+.mission-title, .vision-title {
+  height: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: oblique;
+}
+.mission-text, .vision-text {
+  text-align: justify;
+  text-indent: 50px;
+}
+
+/* footer */
+/* index html */
+.footer {
+  background-color: maroon;
+}
+.contact-section {
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+.contact-logo h3 {
+  font-style: oblique;
+  font-weight: lighter;
+  text-indent: 55px;
+  font-size: 20px;
+  color: rgb(0, 65, 0);
+}
+.contact-logo img {
+  max-width: 100px;
+  margin: 20px 20px 0 40px;
+}
+.contact-content {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  gap: 125px;
+  margin-bottom: 20px;
+}
+.contact-item h3 {
+  margin-bottom: 5px;
+  font-size: 23px;
+  font-style: oblique;
+}
+.contact-item p {
+  margin: 0;
+  font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contact-logo img {
+      max-width: 80px;
+      margin: 10px 10px 0 20px;
+  }
+  .contact-logo h3 {
+      font-size: 15px;
+      text-align: center;
+      text-indent: 3px;
+  }
+  .contact-content {
+      padding: 0;
+  }
+  .contact-info {
+      gap: 40px;
+      padding: 0 0 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-logo {
+      padding: 55px 0 0;
+  }
+  .contact-section {
+      width: 100%;
+      margin: 0 auto;
+  }
+  .contact-info {
+      display: table-row;
+  }
+  .contact-content {
+      padding: 0 0 0 50px;
+  }
+  .contact-item {
+      margin: 20px 0 5px 0;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 13px;
+}
+
+
