@@ -2,6 +2,7 @@ import React from 'react';
 
 function Home() {
 return (
+    <>
     <div className="container my-5" id='home'>
         <div className="row justify-content-center">
             <div className="col-md-8 text-center">
@@ -15,6 +16,35 @@ return (
             </div>
         </div>
     </div>
+        {/* School News Section */}
+        <div className="container news">
+            <div className="row justify-content-center ">
+                <div className="col-md-8">
+                        <div className="news-content ">
+                            <h4 className="bg-success title-news mb-3">School News</h4>
+                                <h4>
+                                    <a href="#" className="text-decoration-none text-primary m-5">
+                                    ISPSC ranks in 2023 Global Top Innovative Universities 
+                                    </a>
+                                </h4>
+                                <div className='d-flex align-items-start m-2'>
+                                <img className="news-image me-3"
+                                src="https://ispsctagudin.info/home/assets/img/ranked_ispsc.jpg"
+                                alt="ISPSC Ranked"
+                                width="90px"
+                                />
+                                <p className="text-news mt-3">
+                                    With its innovative programs on student mobility and openness, crisis management, 
+                                    and the fourth industrial revolution, the Ilocos Sur Polytechnic State College (ISPSC) 
+                                    was ranked as one of the Global Top Innovative Universities in the May 2023 ranking of 
+                                    The World University Rankings for Innovation (WURI).
+                                </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </>
 );
 }
 

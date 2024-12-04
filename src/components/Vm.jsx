@@ -28,6 +28,22 @@ return (
                         naikalintegan a panagusar dagiti pagbaknangan ken pannakaipaay iti programa ken serbisyo nga mangidanon iti panagbalbaliw.</p>
                 </div>
             </div>
+            
+            <div className="objectives">
+                <h3 className="objectives-title text-white bg-success">Objectives</h3>
+                <div className="objectives-text">
+                   
+                   <ul className="objective-item">
+                    <li>To make the college responsive and relevant to the individual and social needs for optimum human development.</li>
+                    <li>To offer priority programs in tourism, teacher education, agriculture fishery, agro-forestry, trades, business industry and Information technology which will generate knowledge base to educate the people and communities.</li>
+                    <li>To conduct a wide-range of research and extension programs to provide quality training and technologies for inclusive growth.</li>
+                    <li>To implement government programs and thrusts in the context of regional and national development for poverty alleviation.</li>
+                    <li>To prepare and develop highly productive and employable professionals, “glocal” (global and local) technopreneurs who are morally-crafted and environmentally-oriented for coping globalization standards.</li>
+                   </ul>
+                   
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
