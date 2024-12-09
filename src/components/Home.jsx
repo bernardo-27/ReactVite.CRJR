@@ -1,10 +1,11 @@
+import Announcements from './Announcements';
 import React from 'react';
 
 function Home() {
 return (
     <>
     <div className="container my-5" id='home'>
-        <div className="row justify-content-center">
+        <div className="row justify-content-between">
             <div className="col-md-8 text-center">
                 <div className="home-content">
                 <h6 className="panthers bg-success rounded-top">Welcome Back, Panthers!</h6>
@@ -14,11 +15,14 @@ return (
                     </p> 
                 </div>    
             </div>
+            <div className="col-md-4 announcements">
+                <Announcements />
+            </div>
         </div>
     </div>
         {/* School News Section */}
         <div className="container news">
-            <div className="row justify-content-center ">
+            <div className="row justify-content-start ">
                 <div className="col-md-8">
                         <div className="news-content ">
                             <h4 className="bg-success title-news mb-3">School News</h4>
